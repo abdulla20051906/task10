@@ -1,0 +1,88 @@
+footer {
+  background-color: black;
+  margin-top: 4%;
+}
+footer p {
+  color: aliceblue;
+}
+footer .foter-nav {
+  display: flex;
+  margin-left: 100px;
+  color: aliceblue;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+footer .foter-nav h2 {
+  font-size: 24px;
+}
+footer .foter-nav p {
+  font-size: 10px;
+}
+footer .foter-border {
+  margin: auto;
+  width: 85%;
+  color: aliceblue;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .foter-desc {
+  margin-top: 4%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+footer .foter-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .foter-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .foter-input form input {
+  padding: 10px;
+}
+footer .foter-input form button {
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+footer .foter-end {
+  margin-top: 4%;
+  display: flex;
+  margin-left: 22%;
+  text-align: start;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 880px) {
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  footer .foter-input form input {
+    padding: 5px;
+  }
+  footer .foter-input form button {
+    padding: 5px;
+  }
+}
+@media (max-width: 880px) {
+  footer {
+    width: 100%;
+  }
+  footer p {
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=foter.css.map */
